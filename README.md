@@ -14,12 +14,12 @@ In the version 1, the manual will be preferably in French. This can be easily im
 
 Important
 ---------
-fascicules obly works when using PDFLaTeX. The class of the document has to be scrbook. Please, refer to
+fascicules only works when using PDFLaTeX. The class of the document has to be scrbook. Please, refer to
 the documentation to get a better idea of what this class does. The guide (in French) uses this package and explains the princips. 
 
 Installation
 ------------
-Download the file fascicules.sty and leave it somewhere TeX will find it.
+Download the file fascicules.sty and leave it somewhere where TeX will find it.
 
 This package requires other LaTeX packages that you might need to download
 before compiling your documents.
