@@ -699,7 +699,6 @@ description delimiters parenthesis,label type=definition}{}
 	 \ifthenelse{\equal{\exotype}{method}}{
 	 \renewcommand{\fascicules@exocolour}{\methodscolor}
 	      \untagged{method}{
-	         \begin{multicols}{2}
 	         \bgroup
 	         \renewenvironment{sol}{{\bfseries solution:}}{}
 	      }
@@ -713,7 +712,7 @@ description delimiters parenthesis,label type=definition}{}
 	}
 	{
 	\ifthenelse{\equal{\exotype}{method}}{
-		\untagged{method}{\egroup \end{multicols}}
+		\untagged{method}{\egroup}
 	}{}
 	\penalty -1000 \par
 	}
